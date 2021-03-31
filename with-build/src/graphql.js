@@ -1,4 +1,4 @@
-const { ApolloServer, gql } = require("apollo-server-lambda");
+import { ApolloServer, gql } from "apollo-server-lambda";
 
 const typeDefs = gql`
   type Query {
