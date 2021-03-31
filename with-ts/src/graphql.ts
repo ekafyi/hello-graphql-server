@@ -1,4 +1,5 @@
 import { ApolloServer, gql } from "apollo-server-lambda";
+import { shout } from "./utils";
 
 const typeDefs = gql`
   type Query {
@@ -8,7 +9,7 @@ const typeDefs = gql`
 
 const resolvers = {
   Query: {
-    hello: () => "Hello serverless server",
+    hello: () => shout("Hello serverless server"),
   },
 };
 
