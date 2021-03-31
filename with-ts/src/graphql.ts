@@ -3,13 +3,13 @@ import { shout } from "./utils";
 
 const typeDefs = gql`
   type Query {
-    hello: String
+    hello(name: String): String
   }
 `;
 
 const resolvers = {
   Query: {
-    hello: () => shout("Hello serverless server"),
+    hello: (_parent, args) => shout(`Hello ${args.name || 'serverless server'}`),
   },
 };
 
