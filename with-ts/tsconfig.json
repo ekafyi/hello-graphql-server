@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"outDir": "./functions",
+		"strict": false,
+		"allowJs": true,
+		"checkJs": false,
+	},
+	"exclude": [
+		"node_modules",
+		"functions"
+	]
+}
