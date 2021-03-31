@@ -1,0 +1,23 @@
+{
+  "name": "hello-graphql-server-with-build",
+  "private": true,
+  "scripts": {
+    "start": "netlify-lambda serve src",
+    "build": "netlify-lambda build src"
+  },
+  "dependencies": {
+    "apollo-server-lambda": "^2.22.1",
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "encoding": "^0.1.13",
+    "netlify-cli": "^3.13.7",
+    "netlify-lambda": "^2.0.3"
+  },
+  "author": "Eka @ekafyi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekafyi/hello-graphql-server.git"
+  }
+}
