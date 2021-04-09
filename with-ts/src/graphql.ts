@@ -1,5 +1,8 @@
 import { ApolloServer, gql } from "apollo-server-lambda";
-import { shout } from "./utils";
+
+const shout = (msg: string) => {
+  return `${msg.toUpperCase()}!!!!`
+}
 
 const typeDefs = gql`
   type Query {
