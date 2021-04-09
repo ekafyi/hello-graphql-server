@@ -1,6 +1,6 @@
 # Serverless GraphQL Server on Netlify Functions, 3 Ways
 
-Sample repo for my post on DEV.to, https://dev.to/ekafyi/serverless-graphql-server-deploying-to-netlify-functions-3-ways-jfb
+Sample repo for [my DEV.to post](https://dev.to/ekafyi/serverless-graphql-server-deploying-to-netlify-functions-3-ways-jfb)
 
 Does what it says on the tin...
 - `no-build` — graphql server function without build step
